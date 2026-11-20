@@ -1,0 +1,21 @@
+# للتشغيل دون Docker: انسخ إلى /etc/systemd/system/ ثم:
+#   systemctl daemon-reload && systemctl enable --now smart-advisor
+[Unit]
+Description=Smart Academic Advisor (IS Department)
+After=network.target postgresql.service
+
+[Service]
+Type=simple
+User=advisor
+WorkingDirectory=/opt/smart-advisor
+EnvironmentFile=/opt/smart-advisor/.env
+ExecStartPre=/usr/bin/npx tsx server/src/db/seed.ts --production
+ExecStart=/usr/bin/npx tsx server/src/index.ts
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+ProtectSystem=full
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

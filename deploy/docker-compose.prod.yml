@@ -1,0 +1,33 @@
+# تشغيل الإنتاج: docker compose -f deploy/docker-compose.prod.yml --env-file deploy/.env.production up -d --build
+services:
+  db:
+    image: postgres:16
+    restart: always
+    environment:
+      POSTGRES_USER: advisor
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?ضع DB_PASSWORD في ملف .env.production}
+      POSTGRES_DB: advisor
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U advisor -d advisor"]
+      interval: 10s
+      retries: 5
+    # لا يُفتح منفذ قاعدة البيانات خارج الخادم
+
+  app:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    env_file: .env.production
+    environment:
+      DATABASE_URL: postgres://advisor:${DB_PASSWORD}@db:5432/advisor
+    ports:
+      - "127.0.0.1:4000:4000" # متاح فقط لـ Nginx على نفس الخادم
+
+volumes:
+  pgdata:

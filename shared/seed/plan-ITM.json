@@ -1,0 +1,909 @@
+{
+ "track": "ITM",
+ "totalCredits": 133,
+ "guideTotalCredits": 133,
+ "categories": {
+  "UNI_REQ": 18,
+  "UNI_ELEC": 6,
+  "COL_REQ": 29,
+  "COL_ELEC": 6,
+  "MAJ_REQ": 56,
+  "MAJ_ELEC": 18,
+  "REMEDIAL": 3
+ },
+ "courses": [
+  {
+   "code": "13010006",
+   "nameAr": "مهارات الحاسوب وتطبيقاته",
+   "credits": 1,
+   "category": "UNI_REQ"
+  },
+  {
+   "code": "13010007",
+   "nameAr": "مهارات الاتصال",
+   "credits": 1,
+   "category": "UNI_REQ"
+  },
+  {
+   "code": "15200101",
+   "nameAr": "القضية الفلسطينية",
+   "credits": 3,
+   "category": "UNI_REQ"
+  },
+  {
+   "code": "15200102",
+   "nameAr": "اللغة العربية",
+   "credits": 3,
+   "category": "UNI_REQ"
+  },
+  {
+   "code": "15200104",
+   "nameAr": "خدمة المجتمع",
+   "credits": 1,
+   "category": "UNI_REQ"
+  },
+  {
+   "code": "15200106",
+   "nameAr": "اللغة الإنجليزية (1)",
+   "credits": 3,
+   "category": "UNI_REQ"
+  },
+  {
+   "code": "15200107",
+   "nameAr": "الدراسات الإسلامية",
+   "credits": 3,
+   "category": "UNI_REQ"
+  },
+  {
+   "code": "15200112",
+   "nameAr": "اللغة الإنجليزية (2)",
+   "credits": 3,
+   "category": "UNI_REQ"
+  },
+  {
+   "code": "13020001",
+   "nameAr": "اللغة العبرية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020002",
+   "nameAr": "اللغة الفرنسية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020003",
+   "nameAr": "اللغة الألمانية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020004",
+   "nameAr": "اللغة الروسية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020005",
+   "nameAr": "اللغة التركية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020006",
+   "nameAr": "اللغة الإيطالية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020007",
+   "nameAr": "اللغة الإنجليزية (3)",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020008",
+   "nameAr": "الثقافة البدنية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020009",
+   "nameAr": "الإسلام والقضايا المعاصرة",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020010",
+   "nameAr": "النظام الاقتصادي في الإسلام",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020011",
+   "nameAr": "مشكلات معاصرة",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020012",
+   "nameAr": "الحضارة الإسلامية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020013",
+   "nameAr": "تاريخ القدس",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020014",
+   "nameAr": "العلوم السياسية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020015",
+   "nameAr": "العلاقات الدولية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020016",
+   "nameAr": "القانون في حياتنا",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020017",
+   "nameAr": "الإطار القانوني للحكومة الإلكترونية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020018",
+   "nameAr": "الحركة الأسيرة الفلسطينية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020019",
+   "nameAr": "الديموقراطية والانتخابات",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020020",
+   "nameAr": "مكافحة الفساد",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020021",
+   "nameAr": "تاريخ العلوم عند العرب",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020022",
+   "nameAr": "المكتبة وطرق البحث",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020023",
+   "nameAr": "علم الفلك",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020024",
+   "nameAr": "الثقافة البيئية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020025",
+   "nameAr": "الزراعة في فلسطين",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020026",
+   "nameAr": "الريادة والإبداع",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020027",
+   "nameAr": "الثقافة الصحية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020028",
+   "nameAr": "مسيرتي (1)",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020029",
+   "nameAr": "مسيرتي (2)",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020030",
+   "nameAr": "الفرد والمجتمع",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020031",
+   "nameAr": "قضايا عالمية معاصرة",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020032",
+   "nameAr": "الاقتصاد في العالم الثالث",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020033",
+   "nameAr": "تربية الطفل وتنشئة الأسرة",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020034",
+   "nameAr": "مقدمة في هندسة السيارات",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020035",
+   "nameAr": "مهارات التواصل المهني",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "13020036",
+   "nameAr": "تطبيقات برمجية",
+   "credits": 2,
+   "category": "UNI_ELEC"
+  },
+  {
+   "code": "15010101",
+   "nameAr": "تفاضل وتكامل (1)",
+   "credits": 3,
+   "category": "COL_REQ",
+   "suggestedYear": 1,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "15010102",
+   "nameAr": "تفاضل وتكامل (2)",
+   "credits": 3,
+   "category": "COL_REQ",
+   "suggestedYear": 1,
+   "suggestedTerm": 2
+  },
+  {
+   "code": "15020101",
+   "nameAr": "فيزياء عامه (1)",
+   "credits": 3,
+   "category": "COL_REQ",
+   "suggestedYear": 1,
+   "suggestedTerm": 2
+  },
+  {
+   "code": "15060101",
+   "nameAr": "مبادئ احصاء",
+   "credits": 3,
+   "category": "COL_REQ",
+   "suggestedYear": 4,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19040112",
+   "nameAr": "برمجة الحاسوب (1)",
+   "credits": 3,
+   "category": "COL_REQ",
+   "suggestedYear": 1,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19040113",
+   "nameAr": "برمجة الحاسوب (2)",
+   "credits": 3,
+   "category": "COL_REQ",
+   "suggestedYear": 1,
+   "suggestedTerm": 2
+  },
+  {
+   "code": "19040114",
+   "nameAr": "مقدمة في تكنولوجيا المعلومات",
+   "credits": 3,
+   "category": "COL_REQ",
+   "suggestedYear": 1,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19040116",
+   "nameAr": "مقدمة في ريادة الاعمال",
+   "credits": 2,
+   "category": "COL_REQ",
+   "suggestedYear": 4,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19040117",
+   "nameAr": "أساسيات حل المشكلات",
+   "credits": 3,
+   "category": "COL_REQ",
+   "suggestedYear": 1,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19041224",
+   "nameAr": "اسس البحث العلمي",
+   "credits": 3,
+   "category": "COL_REQ",
+   "suggestedYear": 3,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "15020102",
+   "nameAr": "فيزياء عامه (2)",
+   "credits": 3,
+   "category": "COL_ELEC"
+  },
+  {
+   "code": "15030101",
+   "nameAr": "أحياء عامة (1)",
+   "credits": 3,
+   "category": "COL_ELEC"
+  },
+  {
+   "code": "15050101",
+   "nameAr": "كيمياء عامة (1)",
+   "credits": 3,
+   "category": "COL_ELEC"
+  },
+  {
+   "code": "19040115",
+   "nameAr": "مهارات الاتصال في تكنولوجيا المعلومات",
+   "credits": 3,
+   "category": "COL_ELEC"
+  },
+  {
+   "code": "19041213",
+   "nameAr": "مبادئ الادارة",
+   "credits": 3,
+   "category": "COL_ELEC"
+  },
+  {
+   "code": "19011100",
+   "nameAr": "مقدمة في نظم المعلومات",
+   "credits": 3,
+   "category": "MAJ_REQ",
+   "suggestedYear": 1,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19011200",
+   "nameAr": "البرمجة الكينونية",
+   "credits": 4,
+   "category": "MAJ_REQ",
+   "suggestedYear": 2,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19011201",
+   "nameAr": "أنظمة المؤسسات",
+   "credits": 3,
+   "category": "MAJ_REQ",
+   "suggestedYear": 2,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19011202",
+   "nameAr": "تركيب البيانات",
+   "credits": 3,
+   "category": "MAJ_REQ",
+   "suggestedYear": 2,
+   "suggestedTerm": 2
+  },
+  {
+   "code": "19011203",
+   "nameAr": "شبكات الحاسوب",
+   "credits": 3,
+   "category": "MAJ_REQ",
+   "suggestedYear": 2,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19011300",
+   "nameAr": "تطوير تطبيقات الإنترنت",
+   "credits": 3,
+   "category": "MAJ_REQ",
+   "suggestedYear": 3,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19011302",
+   "nameAr": "نظم التشغيل",
+   "credits": 3,
+   "category": "MAJ_REQ",
+   "suggestedYear": 3,
+   "suggestedTerm": 2
+  },
+  {
+   "code": "19011303",
+   "nameAr": "إدارة المشاريع",
+   "credits": 4,
+   "category": "MAJ_REQ",
+   "suggestedYear": 3,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19011304",
+   "nameAr": "نظم قواعد البيانات",
+   "credits": 4,
+   "category": "MAJ_REQ",
+   "suggestedYear": 3,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19011305",
+   "nameAr": "الإدارة الإلكترونية",
+   "credits": 3,
+   "category": "MAJ_REQ",
+   "suggestedYear": 3,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19011306",
+   "nameAr": "إدارة الشبكات",
+   "credits": 3,
+   "category": "MAJ_REQ",
+   "suggestedYear": 3,
+   "suggestedTerm": 2
+  },
+  {
+   "code": "19011308",
+   "nameAr": "تحليل وتصميم الأنظمة",
+   "credits": 3,
+   "category": "MAJ_REQ",
+   "suggestedYear": 3,
+   "suggestedTerm": 2
+  },
+  {
+   "code": "19011401",
+   "nameAr": "أمن المعلومات",
+   "credits": 3,
+   "category": "MAJ_REQ",
+   "suggestedYear": 4,
+   "suggestedTerm": 2
+  },
+  {
+   "code": "19011403",
+   "nameAr": "الريادة والإبداع الرقمي",
+   "credits": 3,
+   "category": "MAJ_REQ",
+   "suggestedYear": 4,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19011404",
+   "nameAr": "مشروع تخرج (1)",
+   "credits": 1,
+   "category": "MAJ_REQ",
+   "suggestedYear": 4,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19011405",
+   "nameAr": "مشروع تخرج (2)",
+   "credits": 1,
+   "category": "MAJ_REQ",
+   "suggestedYear": 4,
+   "suggestedTerm": 2
+  },
+  {
+   "code": "19011407",
+   "nameAr": "هندسة البرمجيات",
+   "credits": 3,
+   "category": "MAJ_REQ",
+   "suggestedYear": 4,
+   "suggestedTerm": 1
+  },
+  {
+   "code": "19011408",
+   "nameAr": "الأعمال الإلكترونية",
+   "credits": 3,
+   "category": "MAJ_REQ",
+   "suggestedYear": 4,
+   "suggestedTerm": 2
+  },
+  {
+   "code": "19011409",
+   "nameAr": "ذكاء الأعمال",
+   "credits": 3,
+   "category": "MAJ_REQ",
+   "suggestedYear": 4,
+   "suggestedTerm": 2
+  },
+  {
+   "code": "19011500",
+   "nameAr": "إدارة تكنولوجيا المعلومات",
+   "credits": 3,
+   "category": "MAJ_ELEC"
+  },
+  {
+   "code": "19011501",
+   "nameAr": "الحوسبة السحابية",
+   "credits": 3,
+   "category": "MAJ_ELEC"
+  },
+  {
+   "code": "19011502",
+   "nameAr": "الربط بين الإنسان والحاسوب",
+   "credits": 3,
+   "category": "MAJ_ELEC"
+  },
+  {
+   "code": "19011503",
+   "nameAr": "حوسبة الأجهزة المتنقلة",
+   "credits": 3,
+   "category": "MAJ_ELEC"
+  },
+  {
+   "code": "19011504",
+   "nameAr": "إدارة الأعمال",
+   "credits": 3,
+   "category": "MAJ_ELEC"
+  },
+  {
+   "code": "19011507",
+   "nameAr": "التجارة الإلكترونية",
+   "credits": 3,
+   "category": "MAJ_ELEC"
+  },
+  {
+   "code": "19011508",
+   "nameAr": "الحوسبة المرئية",
+   "credits": 3,
+   "category": "MAJ_ELEC"
+  },
+  {
+   "code": "19011509",
+   "nameAr": "مواضيع متقدمة في إدارة نظم قواعد البيانات",
+   "credits": 3,
+   "category": "MAJ_ELEC"
+  },
+  {
+   "code": "19011510",
+   "nameAr": "إدارة الكوارث",
+   "credits": 3,
+   "category": "MAJ_ELEC"
+  },
+  {
+   "code": "19011511",
+   "nameAr": "تنجيم البيانات والذكاء الإصطناعي",
+   "credits": 3,
+   "category": "MAJ_ELEC"
+  },
+  {
+   "code": "19011512",
+   "nameAr": "أنظمة دعم القرار",
+   "credits": 3,
+   "category": "MAJ_ELEC"
+  },
+  {
+   "code": "19011513",
+   "nameAr": "مواضيع مختارة في إدارة تكنولوجيا المعلومات",
+   "credits": 3,
+   "category": "MAJ_ELEC"
+  },
+  {
+   "code": "19011519",
+   "nameAr": "الخصوصية وأخلاقيات الحاسوب",
+   "credits": 3,
+   "category": "MAJ_ELEC"
+  },
+  {
+   "code": "15200099",
+   "nameAr": "إنجليزي إستدراكي",
+   "credits": 3,
+   "category": "REMEDIAL",
+   "suggestedYear": 1,
+   "suggestedTerm": 2
+  }
+ ],
+ "prerequisites": [
+  {
+   "course": "15200106",
+   "requires": "15200099"
+  },
+  {
+   "course": "13020007",
+   "requires": "15200112"
+  },
+  {
+   "course": "13020029",
+   "requires": "13020028"
+  },
+  {
+   "course": "15010102",
+   "requires": "15010101"
+  },
+  {
+   "course": "19040113",
+   "requires": "19040112"
+  },
+  {
+   "course": "15020102",
+   "requires": "15020101"
+  },
+  {
+   "course": "19011200",
+   "requires": "19040113"
+  },
+  {
+   "course": "19011201",
+   "requires": "19011100"
+  },
+  {
+   "course": "19011202",
+   "requires": "19011200"
+  },
+  {
+   "course": "19011203",
+   "requires": "19011100"
+  },
+  {
+   "course": "19011300",
+   "requires": "19011202"
+  },
+  {
+   "course": "19011302",
+   "requires": "19011202"
+  },
+  {
+   "course": "19011303",
+   "requires": "19011202"
+  },
+  {
+   "course": "19011304",
+   "requires": "19011202"
+  },
+  {
+   "course": "19011305",
+   "requires": "19011202"
+  },
+  {
+   "course": "19011306",
+   "requires": "19011202"
+  },
+  {
+   "course": "19011308",
+   "requires": "19011304"
+  },
+  {
+   "course": "19011401",
+   "requires": "19011202"
+  },
+  {
+   "course": "19011403",
+   "requires": "19011202"
+  },
+  {
+   "course": "19011405",
+   "requires": "19011404"
+  },
+  {
+   "course": "19011407",
+   "requires": "19011308"
+  },
+  {
+   "course": "19011408",
+   "requires": "19011407"
+  },
+  {
+   "course": "19011409",
+   "requires": "19011407"
+  },
+  {
+   "course": "19011500",
+   "requires": "19011305"
+  },
+  {
+   "course": "19011501",
+   "requires": "19011203"
+  },
+  {
+   "course": "19011502",
+   "requires": "19011203"
+  },
+  {
+   "course": "19011503",
+   "requires": "19011203"
+  },
+  {
+   "course": "19011504",
+   "requires": "19011203"
+  },
+  {
+   "course": "19011507",
+   "requires": "19011203"
+  },
+  {
+   "course": "19011508",
+   "requires": "19011203"
+  },
+  {
+   "course": "19011509",
+   "requires": "19011304"
+  },
+  {
+   "course": "19011510",
+   "requires": "19011407"
+  },
+  {
+   "course": "19011511",
+   "requires": "19011407"
+  },
+  {
+   "course": "19011512",
+   "requires": "19011407"
+  },
+  {
+   "course": "19011519",
+   "requires": "19011203"
+  }
+ ],
+ "guidingSlots": [
+  {
+   "year": 1,
+   "term": 2,
+   "label": "متطلب جامعة اجباري",
+   "credits": 3,
+   "category": "UNI_REQ",
+   "kind": "category"
+  },
+  {
+   "year": 1,
+   "term": 2,
+   "label": "متطلب كلية اختياري",
+   "credits": 3,
+   "category": "COL_ELEC",
+   "kind": "category"
+  },
+  {
+   "year": 2,
+   "term": 1,
+   "label": "متطلب جامعة اجباري",
+   "credits": 3,
+   "category": "UNI_REQ",
+   "kind": "category"
+  },
+  {
+   "year": 2,
+   "term": 1,
+   "label": "متطلب جامعة اختياري",
+   "credits": 2,
+   "category": "UNI_ELEC",
+   "kind": "category"
+  },
+  {
+   "year": 2,
+   "term": 2,
+   "label": "متطلب جامعة اجباري",
+   "credits": 1,
+   "category": "UNI_REQ",
+   "kind": "category"
+  },
+  {
+   "year": 2,
+   "term": 2,
+   "label": "متطلب جامعة اجباري",
+   "credits": 3,
+   "category": "UNI_REQ",
+   "kind": "category"
+  },
+  {
+   "year": 2,
+   "term": 2,
+   "label": "متطلب جامعة اختياري",
+   "credits": 2,
+   "category": "UNI_ELEC",
+   "kind": "category"
+  },
+  {
+   "year": 2,
+   "term": 2,
+   "label": "متطلب كلية اختياري",
+   "credits": 3,
+   "category": "COL_ELEC",
+   "kind": "category"
+  },
+  {
+   "year": 2,
+   "term": 2,
+   "label": "متطلب تخصص اختياري",
+   "credits": 3,
+   "category": "MAJ_ELEC",
+   "kind": "category"
+  },
+  {
+   "year": 3,
+   "term": 1,
+   "label": "متطلب جامعة اجباري",
+   "credits": 1,
+   "category": "UNI_REQ",
+   "kind": "category"
+  },
+  {
+   "year": 3,
+   "term": 2,
+   "label": "متطلب جامعة اجباري",
+   "credits": 1,
+   "category": "UNI_REQ",
+   "kind": "category"
+  },
+  {
+   "year": 3,
+   "term": 2,
+   "label": "متطلب جامعة اجباري",
+   "credits": 3,
+   "category": "UNI_REQ",
+   "kind": "category"
+  },
+  {
+   "year": 3,
+   "term": 2,
+   "label": "متطلب جامعة اختياري",
+   "credits": 2,
+   "category": "UNI_ELEC",
+   "kind": "category"
+  },
+  {
+   "year": 3,
+   "term": 2,
+   "label": "متطلب تخصص اختياري",
+   "credits": 3,
+   "category": "MAJ_ELEC",
+   "kind": "category"
+  },
+  {
+   "year": 4,
+   "term": 1,
+   "label": "التدريب الميداني",
+   "credits": 0,
+   "category": null,
+   "kind": "non_credit"
+  },
+  {
+   "year": 4,
+   "term": 1,
+   "label": "متطلب تخصص اختياري",
+   "credits": 3,
+   "category": "MAJ_ELEC",
+   "kind": "category"
+  },
+  {
+   "year": 4,
+   "term": 2,
+   "label": "متطلب تخصص اختياري",
+   "credits": 3,
+   "category": "MAJ_ELEC",
+   "kind": "category"
+  }
+ ],
+ "importIssues": []
+}
