@@ -1,0 +1,26 @@
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/typescript-node:22
+    volumes:
+      - ../..:/workspaces:cached
+    command: sleep infinity
+    environment:
+      DATABASE_URL: postgres://advisor:advisor@localhost:5432/advisor
+      TEST_DATABASE_URL: postgres://advisor:advisor@localhost:5432/advisor_test
+      APP_MODE: demo
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+    network_mode: service:db
+
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: advisor
+      POSTGRES_PASSWORD: advisor
+      POSTGRES_DB: advisor
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init-test-db.sql:/docker-entrypoint-initdb.d/init-test-db.sql:ro
+
+volumes:
+  pgdata:
