@@ -1,0 +1,7 @@
+node_modules
+dist
+dist-demo
+.env
+deploy/.env.production
+docs/screenshots
+*.log
