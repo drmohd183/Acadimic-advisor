@@ -1,0 +1,27 @@
+{
+  "name": "المرشد الأكاديمي الذكي",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "shutdownAction": "stopCompose",
+
+  "forwardPorts": [4000, 5173],
+  "portsAttributes": {
+    "4000": { "label": "المرشد الأكاديمي (الخادم)", "onAutoForward": "openBrowser" },
+    "5173": { "label": "واجهة التطوير (Vite)", "onAutoForward": "notify" }
+  },
+
+  "postCreateCommand": "[ -f .env ] || cp .env.example .env; npm ci --no-audit --no-fund && npm run setup",
+  "postAttachCommand": {
+    "server": "npm start"
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint", "bradlc.vscode-tailwindcss", "vitest.explorer"]
+    },
+    "codespaces": {
+      "openFiles": ["README.md"]
+    }
+  }
+}
